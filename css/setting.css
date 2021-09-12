@@ -1,0 +1,126 @@
+#setting-toolbar 
+{
+	text-align:center;
+}
+#setting-toolbar button
+{
+	background:none;
+	border:1px solid;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-color:rgb(4, 102, 180);
+	transition:0.2s border-color;
+	cursor:pointer;
+}
+#setting-toolbar button:hover
+{
+	border-color:rgb(255,170,255);
+}
+#setting-main-base-favorite
+{
+	display:flex; 
+	display:-webkit-flex;
+	justify-content:space-around;
+}
+.setting-upload-picture 
+{
+	height:180px;
+	width:100%;
+	display:flex;
+	display:-webkit-flex;
+	align-items:center;
+}
+.setting-upload-picture img 
+{
+	height:180px;
+	border:1px solid;
+	margin-right:50px;
+}
+.setting-upload-file
+{
+	display:none;
+}
+.setting-upload-operator label
+{
+	float:right;
+	font-family: "microsoft yahei";
+	height:35px;
+	font-size:15px;
+	padding-left:30px;
+	padding-right:30px;
+	line-height:35px;
+	background-color: rgb(0, 103, 184);
+	transition:background-color 0.2s;
+	color:white;
+	border:0px solid;
+	cursor:pointer;
+}
+.setting-upload-operator label:hover
+{
+	background-color: rgb(0, 93, 166);
+}
+.input-p 
+{
+	display: flex;
+	display: -webkit-flex;
+	line-height: 30px;
+	font-size:13px;
+}
+.input-p > a
+{
+	padding-left:10px;
+	padding-right:10px;
+	background-color:rgb(232, 240, 254);
+	font-size:12px;
+	height:28px;
+}
+.input 
+{
+	flex-grow: 1000;
+	flex-shrink: 1;
+	height: 24px;
+	border: 1px solid;
+	border-top:1px;
+	border-left:1px;
+	border-right:1px;
+	border-color:rgb(4, 102, 180);
+	/* font-size: 16px; */
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	padding-top: 3px;
+	background-color: rgb(232, 240, 254);
+	outline:none;
+	flex-grow:1000;
+	flex-shrink:1;
+}
+.select {
+	border: 1px solid;
+	border-top:1px;
+	border-left:1px;
+	border-right:1px;
+	border-color:rgb(4, 102, 180);
+	background-color: rgb(232, 240, 254);
+	outline:none;
+	flex-shrink:1;
+	height:29px;
+	padding-left:4px;
+}
+.submit 
+{
+	font-family: "microsoft yahei";
+	height:35px;
+	font-size:15px;
+	padding-left:30px;
+	padding-right:30px;
+	background-color: rgb(0, 103, 184);
+	transition:background-color 0.2s;
+	color:white;
+	border:0px solid;
+	cursor:pointer;
+}
+
+.submit:hover 
+{
+	background-color: rgb(0, 93, 166);
+}

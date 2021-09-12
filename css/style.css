@@ -1,0 +1,269 @@
+
+/* Cascading Style Sheets Module: Webpage Body Module */
+body 
+{
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+	margin:0px;
+	/* filter:grayscale(80%); */
+	/*网站变灰特效,例如大屠杀纪念日可用 */
+}
+
+a
+{
+	color:green;
+	cursor:pointer;
+	transition:0.2s color;
+}
+a:link{text-decoration:none;color:green}
+a:active{text-decoration:none;color:red}
+a:hover{text-decoration:none;color:red!important;}
+a:visited{text-decoration:none;color:green}
+p 
+{
+	word-wrap:break-word;
+	word-break:break-all;
+	overflow:hidden;
+}
+
+/* Cascading Style Sheets Module: Toolbar Module */
+.toolbar
+{
+	text-align:center;
+	height:60px;
+	width:70%;
+	background-color:RGBA(255,255,255,0.8);
+	padding-left:15%;
+	padding-right:15%;
+	z-index:1;
+	display:flex;
+	display:-webkit-flex;
+	flex-direction:row;
+	justify-content:space-between;
+}
+
+.toolbar-left 
+{
+	display:flex;
+	display:-webkit-flex;
+}
+
+.toolbar-right
+{
+	display:flex;
+	display:-webkit-flex;
+}
+
+.toolbar-left-element 
+{
+	display: inline-block;
+	margin-left:6.5px;
+	margin-right:6.5px;
+	flex-grow:0;
+	cursor:pointer;
+}
+
+.toolbar-left-element p
+{
+	color:gray;
+	transition:color 0.2s;
+	position:relative;
+	top:5px;
+	cursor:pointer;
+}
+
+.toolbar-left-element p:hover 
+{
+	color:black;
+}
+
+.toolbar-right-element 
+{
+	display: inline-block;
+	margin-left:6.5px;
+	margin-right:6.5px;
+	flex-grow:0;
+}
+
+.toolbar-right-element p
+{
+	color:gray;
+	transition:color 0.2s;
+	position:relative;
+	top:5px;
+	cursor:pointer;
+}
+
+.toolbar-right-element p:hover 
+{
+	color:black;
+}
+
+#toolbar-sign
+{
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+	height:40px;
+	width:40px;
+	z-index:3;
+	margin-right:18px;
+	margin-left:10px;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.toolbar-search
+{
+	width:100px;
+	flex-grow:1000;
+}
+
+#toolbar-search-box
+{
+	margin-top:12px;
+	width:calc( 90% - 60px );
+	height:50%;
+	padding-left:10px;
+}
+
+#toolbar-search-button
+{
+	margin-top:13px;
+	width:50px;
+	height:36px;
+	text-align:center;
+	position:relative;
+	top:1px;
+}
+
+.toolbar-header
+{
+	height:40px;
+	width:40px;
+	z-index:3;
+	margin-right:18px;
+	margin-left:10px;
+	margin-top:5px;
+	margin-bottom:10px;
+	border:1px solid;
+	border-radius:20px;
+}
+
+
+
+.main
+{
+	border:1px solid;
+	border-color:black;
+	background-color:RGBA(255,255,255,0.4);
+	padding-bottom:30px;
+    padding-left:2%;
+    padding-right:2%;
+    min-height:800px;
+}
+/* Cascading Style Sheets Module: Main Text Module */
+@media screen and (min-width: 1160px) {
+    .main
+    {
+    	width:1056px;
+    	margin:auto;
+    	margin-top:30px;
+    	margin-bottom:30px;
+    }
+}
+@media screen and (max-width: 1160px) {
+    .main
+    {
+    	width:calc( 96% - 2px );
+    	padding-left:2%;
+    	padding-right:2%;
+    }
+}
+
+.ps-list 
+{
+	margin-top:30px;
+	border-radius:5px;
+	height:30px;
+	text-align:center;
+}
+.ps-list .block0
+{
+	width:30px;
+	height:30px;
+	line-height:30px;
+	display:inline-block;
+	text-align:center;
+	cursor:pointer;
+	background-color:lightblue;
+}
+.ps-list .block1
+{
+	width:30px;
+	height:30px;
+	line-height:30px;
+	color:green;
+	display:inline-block;
+	text-align:center;
+	cursor:pointer;
+	background-color: #dce61d;
+}
+
+
+/* Cascading Style Sheets Module: Footer Text Module */
+.footer
+{
+	width:calc( 100% - 2px );
+	border:1px solid;
+	min-height:100px;
+	display:flex;
+	display:-webkit-flex;
+	justify-content:center;
+	padding-top:15px;
+	padding-bottom:35px;
+	background-color:RGBA(255,255,255,0.4);
+}
+
+@media screen and (min-width: 1160px) {
+    .footer
+    {
+		border:1px solid;
+    }
+}
+@media screen and (max-width: 1160px) {
+    .footer
+    {
+		border:1px solid;
+		border-top:0px;
+    }
+}
+
+.footer-element 
+{
+	margin-right:50px;
+}
+
+.footer-element a
+{
+	line-height:25px;
+}
+
+/* Cascading Style Sheets Module: Copyright Text Module */
+.copyright
+{
+	width:calc( 100% - 2px );
+	border:1px solid;
+	border-top:0px;
+	height:35px;
+	line-height:35px;
+	text-align:center;
+	background-color:RGBA(255,255,255,0.4);
+}
+
+.copyright p
+{
+	margin:0px;
+}

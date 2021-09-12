@@ -1,0 +1,294 @@
+#hehe
+{
+	display:flex;
+	display:-webkit-flex;
+}
+.main-left 
+{
+	width:150px;
+}
+.main-left p
+{
+	width:calc( 100% - 30px );
+	height:30px;
+	line-height:30px;
+	padding-left:30px;
+	color:rgb(107,117,123);
+	transition:0.2s color;
+	cursor:pointer;
+	font-weight:bold;
+	margin:3px;
+}
+.main-left p:hover 
+{
+	color:rgb(47,174,227);
+}
+.main-right
+{
+	margin-left:50px;
+	width:100px;
+	flex-grow:1000;
+}
+
+.article 
+{
+	height:729px;
+	padding-right:30px;
+	overflow:auto;
+}
+.upload-article-element
+{
+	display:flex;
+	display:-webkie-flex;
+	justify-content:space-between;
+	padding-left:30px;
+	padding-right:30px;
+}
+.upload-article-element-left
+{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.upload-article-element-left h4 
+{
+	margin:0px;
+}
+.upload-article-element-left p 
+{
+	margin:0px;
+	margin-top:10px;
+}
+.upload-article-element-left-toolbar
+{
+	line-height:15px;
+}
+.upload-article-element-left-toolbar .img1
+{
+	position:relative;
+	top:2px;
+	width:18px;
+	height:15px;
+}
+.upload-article-element-left-toolbar .img2
+{
+	position:relative;
+	top:2px;
+	width:15px;
+	height:15px;
+}
+.upload-article-element-right 
+{
+	display:flex;
+	display:-webkit-flex;
+	align-items:center;
+}
+.upload-article-element-right button
+{
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:rgb(153,153,153);
+	border:1px solid;
+	border-color:rgb(153,153,153);
+	transition-property:color , border-color;
+	transition-duration:0.2s , 0.2s;
+	cursor:pointer;
+}
+.upload-article-element-right button:hover 
+{
+	color:rgb(47,174,227);
+	border-color:rgb(47,174,227);
+}
+
+.wikis
+{
+	height:729px;
+	padding-right:30px;
+	overflow:auto;
+}
+.upload-wiki-element
+{
+	display:flex;
+	display:-webkie-flex;
+	justify-content:space-between;
+	padding-left:30px;
+	padding-right:30px;
+}
+.upload-wiki-element-left
+{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.upload-wiki-element-left h4 
+{
+	margin:0px;
+}
+.upload-wiki-element-left p 
+{
+	margin:0px;
+	margin-top:10px;
+}
+.upload-wiki-element-left-toolbar
+{
+	line-height:15px;
+}
+.upload-wiki-element-left-toolbar .img1
+{
+	position:relative;
+	top:2px;
+	width:18px;
+	height:15px;
+}
+.upload-wiki-element-left-toolbar .img2
+{
+	position:relative;
+	top:2px;
+	width:15px;
+	height:15px;
+}
+.upload-wiki-element-right 
+{
+	display:flex;
+	display:-webkit-flex;
+	align-items:center;
+}
+.upload-wiki-element-right button
+{
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:rgb(153,153,153);
+	border:1px solid;
+	border-color:rgb(153,153,153);
+	transition-property:color , border-color;
+	transition-duration:0.2s , 0.2s;
+	cursor:pointer;
+}
+.upload-wiki-element-right button:hover 
+{
+	color:rgb(47,174,227);
+	border-color:rgb(47,174,227);
+}
+
+.upload-writer-info 
+{
+	width:100%;
+	margin-bottom:10px;
+	display:flex;
+	display:-webkit-flex;
+}
+.upload-writer-info input 
+{
+	border:1px solid;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-color:rgb(4, 102, 180);
+	width:100px;
+	flex-grow:1000;
+	outline:none;
+	background:none;
+}
+.upload-writer-info select
+{
+	border:1px solid;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-color:rgb(4, 102, 180);
+	width:100px;
+	flex-grow:1000;
+	outline:none;
+	background:none;
+}
+.upload-writer-submit 
+{
+	float:center;
+	font-family: "microsoft yahei";
+	height:35px;
+	font-size:15px;
+	padding-left:30px;
+	padding-right:30px;
+	background-color: rgb(0, 103, 184);
+	transition:background-color 0.2s;
+	color:white;
+	border:0px solid;
+	cursor:pointer;
+}
+.upload-writer-submit:hover
+{
+	background-color: rgb(0, 93, 166);
+}
+
+.notice 
+{
+	height:729px;
+	padding-right:30px;
+	overflow:auto;
+}
+.upload-notice-element
+{
+	display:flex;
+	display:-webkie-flex;
+	justify-content:space-between;
+	padding-left:30px;
+	padding-right:30px;
+}
+.upload-notice-element-left
+{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+.upload-notice-element-left h4 
+{
+	margin:0px;
+}
+.upload-notice-element-left p 
+{
+	margin:0px;
+	margin-top:10px;
+}
+.upload-notice-element-left-toolbar
+{
+	line-height:15px;
+}
+.upload-notice-element-left-toolbar .img1
+{
+	position:relative;
+	top:2px;
+	width:18px;
+	height:15px;
+}
+.upload-notice-element-left-toolbar .img2
+{
+	position:relative;
+	top:2px;
+	width:15px;
+	height:15px;
+}
+.upload-notice-element-right 
+{
+	display:flex;
+	display:-webkit-flex;
+	align-items:center;
+}
+.upload-notice-element-right button
+{
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:5px;
+	padding-bottom:5px;
+	color:rgb(153,153,153);
+	border:1px solid;
+	border-color:rgb(153,153,153);
+	transition-property:color , border-color;
+	transition-duration:0.2s , 0.2s;
+	cursor:pointer;
+}
+.upload-notice-element-right button:hover 
+{
+	color:rgb(47,174,227);
+	border-color:rgb(47,174,227);
+}

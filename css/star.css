@@ -1,0 +1,247 @@
+#star-toolbar 
+{
+	text-align:center;
+}
+#star-toolbar button
+{
+	background:none;
+	border:1px solid;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	border-color:rgb(4, 102, 180);
+	transition:0.2s border-color;
+	cursor:pointer;
+}
+#star-toolbar button:hover
+{
+	border-color:rgb(255,170,255);
+}
+
+
+/* Cascading Style Sheets Module: Main Article Module */
+
+.article-element 
+{
+	border:1px solid;
+	border-color:lightgreen;
+	border-radius: 5px;
+	display:inline-block;
+	height:100px;
+	margin-top:5px;
+	margin-right:10px;
+	background-color:rgba(255,255,255,0.5);
+}
+
+.article-element .picture
+{
+	margin-top:10px;
+	width:80px;
+	height:80px;
+	border:1px solid;
+	border-radius:40px;
+	border-color:lightgreen;
+	margin-left:10px;
+	display:inline-block;
+}
+
+.article-element .info 
+{
+	padding-left:7px;
+	padding-top:5px;
+	padding-right:10px;
+	padding-bottom:12px;
+	display:inline-block;
+}
+
+.article-element .info p
+{
+	width:200px;
+	margin:0px;
+	font-size:13px;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+.article-element .info p location
+{
+	width:200px;
+	margin:0px;
+	font-size:13px;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	cursor:pointer;
+	color:orange;
+}
+.article-element .info p location:link{text-decoration:none;color:orange}
+.article-element .info p location:active{text-decoration:none;color:skyblue}
+.article-element .info p location:hover{text-decoration:none;color:skyblue!important;}
+.article-element .info p location:visited{text-decoration:none;color:orange}
+
+.article-element .info a
+{
+	width:200px;
+	margin:0px;
+	font-size:15px;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	display:inline-block;
+}
+
+@media screen and (min-width: 1160px) {
+    .article-element
+    {
+    	width:330px;
+    }
+	.article-element .info p
+	{
+		width:200px;
+	}
+	.article-element .info p location
+	{
+		width:200px;
+	}
+	.article-element .info a
+	{
+		width:200px;
+	}
+}
+@media screen and (max-width: 1160px) {
+    .article-element
+    {
+    	width:295px;
+    }
+	.article-element .info p
+	{
+		width:170px;
+	}
+	.article-element .info p location
+	{
+		width:170px;
+	}
+	.article-element .info a
+	{
+		width:170px;
+	}
+}
+
+
+/* Cascading Style Sheets Module: Index Column Module */
+.column-element 
+{
+	border:1px solid;
+	border-color:lightblue;
+	border-radius: 5px;
+	display:inline-block;
+	height:100px;
+	margin-top:5px;
+	margin-right:10px;
+	background-color:rgba(255,255,255,0.5);
+}
+
+.column-element .title 
+{
+	padding-top:5px;
+	padding-left:12px;
+	padding-bottom:8px;
+	padding-right:10px;
+	background-color:rgba(173,216,230,0.5);
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+.column-element .info 
+{
+	padding-left:7px;
+	padding-top:5px;
+	padding-right:10px;
+	padding-bottom:12px;
+}
+
+.column-element .info p
+{
+	margin:0px;
+	font-size:13px;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+@media screen and (min-width: 1160px) {
+    .column-element
+    {
+    	width:330px;
+    }
+}
+@media screen and (max-width: 1160px) {
+    .column-element
+    {
+    	width:290px;
+    }
+}
+
+
+/* Cascading Style Sheets Module: Index Wiki Module */
+.wikis
+{
+	display:inline-block;
+	width:100%;
+}
+
+.wikis-element 
+{
+	border:1px solid;
+	border-color:mediumpurple;
+	border-radius: 5px;
+	display:inline-block;
+	height:100px;
+	margin-top:5px;
+	margin-right:10px;
+	background-color:rgba(255,255,255,0.5);
+}
+
+.wikis-element .title 
+{
+	padding-top:5px;
+	padding-left:12px;
+	padding-bottom:8px;
+	padding-right:10px;
+	background-color:rgba(147,112,219,0.5);
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+.wikis-element .info 
+{
+	padding-left:7px;
+	padding-top:5px;
+	padding-right:10px;
+	padding-bottom:12px;
+}
+
+.wikis-element .info p
+{
+	margin:0px;
+	font-size:13px;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+@media screen and (min-width: 1160px) {
+    .wikis-element
+    {
+    	width:330px;
+    }
+}
+@media screen and (max-width: 1160px) {
+    .wikis-element
+    {
+    	width:295px;
+    }
+}

@@ -1,0 +1,58 @@
+/* Cascading Style Sheets Module: Index Notice Module */
+.notice 
+{
+	display:inline-block;
+	width:100%;
+}
+
+.notice-element 
+{
+	border:1px solid;
+	border-color:pink;
+	border-radius: 5px;
+	display:inline-block;
+	height:80px;
+	margin-top:5px;
+	background-color:rgba(255,255,255,0.5);
+}
+
+.notice-element .title 
+{
+	padding-top:5px;
+	padding-left:12px;
+	padding-bottom:8px;
+	padding-right:10px;
+	background-color:rgba(255,192,203,0.5);
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+.notice-element .info 
+{
+	padding-left:7px;
+	padding-top:5px;
+	padding-right:10px;
+}
+
+.notice-element .info p
+{
+	margin:0px;
+	font-size:13px;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+@media screen and (min-width: 1160px) {
+    .notice-element
+    {
+    	width:330px;
+    }
+}
+@media screen and (max-width: 1160px) {
+    .notice-element
+    {
+    	width:295px;
+    }
+}

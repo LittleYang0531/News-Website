@@ -1,0 +1,120 @@
+#hehe
+{
+	display:flex;
+	display:-webkit-flex;
+}
+.main-left 
+{
+	width:150px;
+}
+.main-left p
+{
+	width:calc( 100% - 30px );
+	height:30px;
+	line-height:30px;
+	padding-left:30px;
+	color:rgb(107,117,123);
+	transition:0.2s color;
+	cursor:pointer;
+	font-weight:bold;
+	margin:3px;
+}
+.main-left p:hover 
+{
+	color:rgb(47,174,227);
+}
+.main-right
+{
+	padding-right:30px;
+	margin-left:50px;
+	width:100px;
+	flex-grow:1000;
+}
+.comment 
+{
+	overflow:auto;
+	height:729px;
+}
+.message-comment-element
+{
+	min-height:80px;
+	display:flex;
+	display:-webkie-flex;
+	padding-top:19.2px;
+	padding-bottom:19.2px;
+}
+.message-comment-header
+{
+	width:50px;
+	height:50px;
+	border:1px solid;
+	border-radius:25px;
+}
+.message-comment-element-info 
+{
+	margin-left:15px;
+	width:100px;
+	flex-grow:10000;
+}
+.message-comment-element-info p
+{
+	margin:0px;
+	margin-bottom:5px;
+}
+
+.like
+{
+	overflow:auto;
+	height:729px;
+}
+.message-like-element
+{
+	min-height:80px;
+	display:flex;
+	display:-webkie-flex;
+	padding-top:19.2px;
+	padding-bottom:19.2px;
+}
+.message-like-header
+{
+	width:50px;
+	height:50px;
+	border:1px solid;
+	border-radius:25px;
+}
+.message-like-element-info 
+{
+	margin-left:15px;
+	width:100px;
+	flex-grow:10000;
+}
+.message-like-element-info p
+{
+	margin:0px;
+	margin-bottom:5px;
+}
+.message-like-element-content 
+{
+	padding-left:10px;
+	border:2px solid;
+	border-color:rgb(153,153,153);
+	border-top:0px;
+	border-right:0px;
+	border-bottom:0px;
+	color:rgb(153,153,153);
+	font-size:13px;
+}
+
+.message-system-element 
+{
+	background-color:rgba(250,250,250,0.8);
+	padding:20px;
+	border-radius:10px;
+	padding-left:15px;
+	margin-bottom:15px;
+}
+.message-system-element p
+{
+	margin:0px;
+	color:rgb(153,153,153);
+}

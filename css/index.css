@@ -1,0 +1,329 @@
+/* Cascading Style Sheets Module: Main Text Module */
+.main
+{
+	border:1px solid;
+	border-color:black;
+	background-color:RGBA(255,255,255,0.4);
+	padding-bottom: 30px;
+}
+
+@media screen and (min-width:1160px) {
+    .main
+    {
+    	width:1056px;
+    }
+}
+@media screen and (max-width:1160px) {
+    .main
+    {
+    	width:calc( 96% - 2px );
+    }
+}
+
+.textmain 
+{
+	width:100%;
+	display:flex;
+	display:-webkit-flex;
+	align-items: flex-start;
+	flex-wrap:wrap;
+}
+
+.left 
+{
+	width:100px;
+	flex-grow:10000;
+}
+
+.right
+{
+	width:calc( 290px - 1% );
+	padding-left:0.5%;
+	padding-right:0.5%;
+}
+
+/* Cascading Style Sheets Module: Index Article Module */
+.article 
+{
+	display:inline-block;
+	width:100%;
+}
+
+.article-element 
+{
+	border:1px solid;
+	border-color:lightgreen;
+	border-radius: 5px;
+	display:inline-block;
+	height:100px;
+	margin-top:5px;
+	margin-right:10px;
+	background-color:rgba(255,255,255,0.5);
+}
+
+.article-element .picture
+{
+	margin-top:10px;
+	width:80px;
+	height:80px;
+	border:1px solid;
+	border-radius:40px;
+	border-color:lightgreen;
+	margin-left:10px;
+	display:inline-block;
+}
+
+.article-element .info 
+{
+	padding-left:7px;
+	padding-top:5px;
+	padding-right:10px;
+	padding-bottom:12px;
+	display:inline-block;
+}
+
+.article-element .info p
+{
+	width:200px;
+	margin:0px;
+	font-size:13px;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+.article-element .info p location
+{
+	width:200px;
+	margin:0px;
+	font-size:13px;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	cursor:pointer;
+	color:orange;
+}
+.article-element .info p location:link{text-decoration:none;color:orange}
+.article-element .info p location:active{text-decoration:none;color:skyblue}
+.article-element .info p location:hover{text-decoration:none;color:skyblue!important;}
+.article-element .info p location:visited{text-decoration:none;color:orange}
+
+.article-element .info a
+{
+	width:200px;
+	margin:0px;
+	font-size:15px;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	display:inline-block;
+}
+
+@media screen and (min-width: 1160px) {
+    .article-element
+    {
+    	width:330px;
+    }
+	.article-element .info p
+	{
+		width:200px;
+	}
+	.article-element .info p location
+	{
+		width:200px;
+	}
+	.article-element .info a
+	{
+		width:200px;
+	}
+}
+@media screen and (max-width: 1160px) {
+    .article-element
+    {
+    	width:300px;
+    }
+	.article-element .info p
+	{
+		width:170px;
+	}
+	.article-element .info p location
+	{
+		width:170px;
+	}
+	.article-element .info a
+	{
+		width:170px;
+	}
+}
+
+
+/* Cascading Style Sheets Module: Index Column Module */
+.column 
+{
+	display:inline-block;
+	width:100%;
+}
+
+.column-element 
+{
+	border:1px solid;
+	border-color:lightblue;
+	border-radius: 5px;
+	display:inline-block;
+	height:100px;
+	margin-top:5px;
+	margin-right:10px;
+	background-color:rgba(255,255,255,0.5);
+}
+
+.column-element .title 
+{
+	padding-top:5px;
+	padding-left:12px;
+	padding-bottom:8px;
+	padding-right:10px;
+	background-color:rgba(173,216,230,0.5);
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+.column-element .info 
+{
+	padding-left:7px;
+	padding-top:5px;
+	padding-right:10px;
+	padding-bottom:12px;
+}
+
+.column-element .info p
+{
+	margin:0px;
+	font-size:13px;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+@media screen and (min-width: 1160px) {
+    .column-element
+    {
+    	width:330px;
+    }
+}
+@media screen and (max-width: 1160px) {
+    .column-element
+    {
+    	width:295px;
+    }
+}
+
+
+/* Cascading Style Sheets Module: Index Wikis Module */
+.wikis 
+{
+	display:inline-block;
+	width:100%;
+}
+
+.wikis-element 
+{
+	border:1px solid;
+	border-color:mediumpurple;
+	border-radius: 5px;
+	display:inline-block;
+	height:100px;
+	margin-top:5px;
+	margin-right:10px;
+	background-color:rgba(255,255,255,0.5);
+}
+
+.wikis-element .title 
+{
+	padding-top:5px;
+	padding-left:12px;
+	padding-bottom:8px;
+	padding-right:10px;
+	background-color:rgba(147,112,219,0.5);
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+.wikis-element .info 
+{
+	padding-left:7px;
+	padding-top:5px;
+	padding-right:10px;
+	padding-bottom:12px;
+}
+
+.wikis-element .info p
+{
+	margin:0px;
+	font-size:13px;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+@media screen and (min-width: 1160px) {
+    .wikis-element
+    {
+    	width:330px;
+    }
+}
+@media screen and (max-width: 1160px) {
+    .wikis-element
+    {
+    	width:295px;
+    }
+}
+
+
+/* Cascading Style Sheets Module: Index Notice Module */
+.notice 
+{
+	display:inline-block;
+	width:100%;
+}
+
+.notice-element 
+{
+	border:1px solid;
+	border-color:pink;
+	border-radius: 5px;
+	display:inline-block;
+	width:250px;
+	height:80px;
+	margin-top:5px;
+	background-color:rgba(255,255,255,0.5);
+}
+
+.notice-element .title 
+{
+	padding-top:5px;
+	padding-left:12px;
+	padding-bottom:8px;
+	padding-right:10px;
+	background-color:rgba(255,192,203,0.5);
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+.notice-element .info 
+{
+	padding-left:7px;
+	padding-top:5px;
+	padding-right:10px;
+}
+
+.notice-element .info p
+{
+	margin:0px;
+	font-size:13px;
+	white-space:nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}

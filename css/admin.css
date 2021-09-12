@@ -1,0 +1,94 @@
+.admin
+{
+	display:flex;
+	display:-webkit-flex;
+}
+.left-elem 
+{
+	float:right;
+	font-family: "microsoft yahei";
+	height:35px;
+	font-size:15px;
+	width:125px;
+	background-color: rgb(0, 103, 184);
+	transition:background-color 0.2s;
+	color:white;
+	border:0px solid;
+	cursor:pointer;
+	margin-bottom:10px;
+}
+.left-elem:hover 
+{
+	background-color: rgb(0, 93, 166);
+}
+.right 
+{
+	flex-grow: 1000;
+	padding-left:50px;
+}
+.input-p {
+	display: flex;
+	display: -webkit-flex;
+	line-height: 30px;
+	align-items: center;
+}
+.input {
+	flex-grow: 1000;
+	flex-shrink: 1;
+	height: 24px;
+	border: 1px solid;
+	border-top:1px;
+	border-left:1px;
+	border-right:1px;
+	border-color:rgb(4, 102, 180);
+	/* font-size: 16px; */
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	padding-top: 3px;
+	background-color: rgb(232, 240, 254);
+	outline:none;
+	flex-grow:1000;
+	flex-shrink:1;
+}
+.process 
+{
+	flex-grow:1000;
+	width:10px;
+	height:15px;
+	background-color:lightgray;
+	border:1px solid;
+	border-radius:20px;
+}
+.used
+{
+	width:100%;
+	text-align:center;
+	height:13px;
+	border-radius:20px;
+	background-color:lightskyblue;
+	line-height:11px;
+	padding-top:2px;
+	font-size:11px;
+	overflow:hidden;
+	font-family:"microsoft yahei";
+}
+.admin-command 
+{
+	width:calc( 100% - 20px );
+	height:610px;
+	background-color:RGBA(0,0,0,0.6);
+	color:white;
+	font-size:14px;
+	font-family:microsoft yahei;
+	padding:10px;
+	overflow:scroll;
+}
+.admin-input 
+{
+	outline: none;
+    border: 0px solid;
+    background-color: RGBA(0,0,0,0);
+    color: white;
+    font-size: 15px;
+    width: calc(100% - 59px);
+}
